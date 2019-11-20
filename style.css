@@ -1,0 +1,128 @@
+body, html {margin: auto;
+     height: 100%;}
+
+h1 {font-family:'Abril Fatface', cursive;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: 4px;}
+
+h2 {font-family: 'Nunito Sans', sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   letter-spacing: 8px;}
+
+h3 {font-family:'Abril Fatface', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 4px;}
+
+p {font-family: 'Nunito Sans', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   letter-spacing: 1.5px;}
+
+a {text-decoration: none;
+  color: inherit;}
+
+ul {list-style-type: none;
+    width: 100%;
+    float: right;
+    background-color: rgb(220, 250, 248);}
+
+.nav {font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.nav a {display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;}
+
+.nav li {display: inline-block;}
+
+.nav li:hover {background-color: rgb(161, 255, 249)}
+
+.title {text-align: center;
+       padding-top: 10px;}
+
+.title h1 {text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          width: 50%;}
+
+.title h2 {padding-top: 5px;
+          padding-bottom: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 40%;}
+
+.profile {width: 100%;}
+
+.profile img {width: 55%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
+
+.body {width: 100%;
+      margin-bottom: 40px;
+      margin-top: 50px;}
+
+.body p {width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        line-height: 200%;}
+
+.button {font-family:'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        background-color:#8DAEB7;
+        border: none;
+        color: black;
+        padding: 15px 25px;
+        margin:auto;
+        display:block;
+        text-align:center;
+        cursor: pointer;
+        outline: none;}
+    
+.button:hover {background-color:#233645;
+                color: white;}
+    
+.button:active {background-color: #233645;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);}
+
+.work {width: 30%;
+      padding-bottom: 30%;}
+
+.square {float:left;
+        position: relative;
+        width: 30%;
+        padding-bottom: 30%;
+        margin:1.66%;
+        overflow:hidden;}
+
+.content {position:absolute;
+         height:80%;
+         width:90%;
+         padding: 10% 5%;}
+
+.gallery {width: 100%;
+         height: auto;
+         opacity: 1;
+         transition: opacity .25s ease-in-out;
+         -moz-transition: opacity .25s ease-in-out;
+         -webkit-transition: opacity .25s ease-in-out;}
+                       
+.gallery:hover {opacity: 0.6;}
